@@ -14,7 +14,7 @@
     initSparkline();
 });
 
-var realtime = 'on';
+var realtime = 'off';
 function initRealTimeChart() {
     //Real time ==========================================================================================
     var plot = $.plot('#real_time_chart', [getRandomData()], {

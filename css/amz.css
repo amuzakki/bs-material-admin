@@ -1,0 +1,22 @@
+/* Navbar Icon */
+.navbar .navbar-toggle:before {
+	content: '\e5d4';
+}
+
+@media (max-width: 767px) {
+	.navbar .navbar-nav {
+		margin-bottom: unset !important;
+	}
+}
+.navbar-nav > li > a {
+	padding: 7px;
+}
+
+.sidebar .user-info .info-container .user-helper-dropdown {
+	bottom: -1px;
+}
+
+/* Card Rounded */
+.info-box, .card, .card .body {
+	border-radius: 6px;
+}
